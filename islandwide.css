@@ -103,12 +103,6 @@ a:hover{
     border-right-color: #DA251C; /*primary-color*/
 }
 
-.Section_header {
-    background:#93acb9;
-    color: white;
-    padding: 10px;
-}
-
 .Heading2 {
     font-size: 14px;
     font-weight: normal;
@@ -791,7 +785,7 @@ div.os-internal-Popup.os-internal-ui-dialog .os-internal-ui-dialog-titlebar-clos
 }
 
 legend {
-    color: black;
+    color: orange;
 }
 .OrderItemPaddingRight
 {
@@ -852,7 +846,7 @@ div.Menu_DropDownPanel a:visited {
 }
 
 label{
-color:black;
+color:grey;
 }
 
 .Nowrap {
@@ -870,10 +864,253 @@ color:black;
     font-size: 10px !important;
 }
 
-
-/*To avoid flickering in some client screens*/
-a:hover{
-    color: #a61008 !important;
-    font-weight: normal !important;
+.Section_header {
+    background:white;
+    border-bottom: 1px solid orange;
+    color: orange;
+    padding: 10px;
 }
+
+.Title_Section .Title {
+    line-height: 20px;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 50%;
+}
+
+
+/**joseluis**/
+.Title_Section {
+    padding: 80px 20px 20px 20px;
+}
+
+/**joseluis**/
+.MainContent {
+    min-height: 100%;
+    padding: 10px;
+    padding-bottom: 60px;
+
+    -servicestudio-min-height: 350px;
+}
+
+.Heading1 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
     
+/*** Generated classes from Style Editor in OutSystems 10 ***/
+[data-style-key="x8DlQgM+OkqGinDH+XOdUg"] { font-weight:bold; }
+.TableRecords[data-style-key="UAaOc4YsiU2ffClJcxBVzg"] { padding:0px; }
+[data-style-key="zVsRuYlQw0q9+3h_rhmdNQ"] { border-top:1px solid #eee; }
+[data-style-key="NL2xUpKflEmQ1JV0MhLMOw"] { border-right:1px solid #eee; }
+[data-style-key="d3YVnihwckW5WJv__Fbh_w"] { border-top:1px solid #eee; }
+[data-style-key="KT8eRGh1SEKlWbWA+h+R9w"] { border-right:1px solid #eee; }
+[data-style-key="H3r7LfZLVk6vUx7PGUnF5g"] { font-size:120%; }
+[data-style-key="Hry9BvSp3EGKQhZa1LPopw"] { border-color:#ccc; border-style:solid; border-width:1px; }
+[data-style-key="5XA9bCkjKkurzR+pJQaNQw"] { font-size:120%; font-weight:bold; }
+[data-style-key="olcOdVfJak6OyAylsmUdNA"] { font-size:80%; }
+[data-style-key="RpTnlgv1nEKmOZO352wEBw"] { font-size:80%; }
+[data-style-key="M_fUXZvZ3kKyqJQMXOL9Rg"] { font-size:80%; font-weight:bold; }
+[data-style-key="SNh_JaK_60a+XyZSjX1F7g"] { font-size:80%; }
+[data-style-key="Cxm0u6Kw9EedS15HwPb7AQ"] { font-size:80%; font-weight:bold; }
+[data-style-key="c0JmEaS2VECnEdXM7Ob5Ag"] { font-size:80%; }
+[data-style-key="fGnbUv4CG0W9Si5G3V3jMQ"] { font-size:80%; font-weight:bold; }
+[data-style-key="rHk0BBZXF02cuJK8J7R+TA"] { font-size:80%; }
+[data-style-key="MwEoNadV60y7Y78meD09uw"] { font-weight:bold; }
+[data-style-key="zZmpX58yUE+92Rh+ommz9g"] { font-weight:bold; }
+[data-style-key="SUP2Wdix8Ea2ryZF1j8X4Q"] { font-weight:bold; }
+[data-style-key="EMjox+_8r0qeFl82VS8HFA"] { font-weight:bold; }
+[data-style-key="SE8P0MgTmUyg+ApK0qfDpA"] { font-weight:bold; }
+[data-style-key="WARpHrMIpEWKH+4IaP7S5Q"] { border-color:#ccc; border-style:solid; border-width:1px; }
+[data-style-key="3nIaqhS8yUKCQJS21O8tjQ"] { font-weight:bold; }
+[data-style-key="hlsr+6qGykuB6L737RO5KQ"] { font-size:120%; font-weight:bold; }
+[data-style-key="kHAWIjaIlkGLnInwvUYtLg"] { font-weight:bold; }
+[data-style-key="aJBWKlqsd0CO9POVCr1IBw"] { font-size:110%; font-weight:bold; }
+[data-style-key="0Yvxb0i9WUSPMh0GkqqaLw"] { font-size:110%; font-weight:bold; }
+[data-style-key="2Z_2OhShXECWbzd8Wy7B4g"] { font-size:120%; }
+[data-style-key="AvITOrwUDUOU0BYzq3RKGA"] { font-size:80%; }
+[data-style-key="qK82m6Znc0yvFxQ3XmZRtQ"] { font-size:80%; }
+[data-style-key="e8uT85LwGU+iCXn4kQBKgg"] { font-size:80%; font-weight:bold; }
+[data-style-key="9hyUxv9EwUm1KJNpISxvTw"] { font-size:80%; }
+[data-style-key="ILbpG4U5d0GLBHvK3WfWQA"] { font-size:80%; font-weight:bold; }
+[data-style-key="CcKGKHfA10+MU0E3eLWkwQ"] { font-size:80%; }
+[data-style-key="5wjCM7VFzkmF1Yn7spCB8Q"] { font-size:80%; font-weight:bold; }
+[data-style-key="Gb6lCoEKpUKz2j4kItlE5A"] { font-size:80%; }
+[data-style-key="hhGsaVDPsUKbVU3Tr2l4Sw"] { font-weight:bold; }
+[data-style-key="znvQrAY6mUGNCkGGB77VUQ"] { font-weight:bold; }
+[data-style-key="sfGIU9xnzkaD4vBcUYE1AQ"] { font-weight:bold; }
+[data-style-key="VPdAOUWs1Ey6NMRPCur7rg"] { font-weight:bold; }
+[data-style-key="A9mv3MgnY0m2hlOTCMdlKg"] { font-weight:bold; }
+[data-style-key="eVxxf38vwEmmSg_iIcHeSA"] { border-color:#ccc; border-style:solid; border-width:1px; }
+[data-style-key="PFrXAoYJzUGFOCYjZEkd6w"] { font-size:80%; }
+[data-style-key="uUf6W1I_FEulwMQqNuAnWA"] { font-size:80%; }
+[data-style-key="vQ+mwm0EnUGyxiCsh3ZAGg"] { font-size:80%; font-weight:bold; }
+[data-style-key="uleYEosuuUqX5NNI8eW_ww"] { font-size:80%; }
+[data-style-key="tA3xl1gJ0UekuIbqScbAGg"] { font-size:80%; font-weight:bold; }
+[data-style-key="U1EF39J_d0iu8I_zLX5npA"] { font-size:80%; }
+[data-style-key="brp1GDevYUqyFsgTMTU2WQ"] { font-size:80%; font-weight:bold; }
+[data-style-key="0W46+X19KkCLHNJPaFC6iQ"] { font-size:80%; }
+[data-style-key="w__qFhO4nkSeNeO03LB55Q"] { font-weight:bold; }
+[data-style-key="bfYY6w3uckONQzjkHM2rUw"] { font-weight:bold; }
+[data-style-key="PNo+4bH9EEiDHu9JSjSiEw"] { font-weight:bold; }
+[data-style-key="d72KH9a_V0mQVuk+yiYPtA"] { font-weight:bold; }
+[data-style-key="q_6NPVPVSEqagHISpwSa1w"] { font-weight:bold; }
+[data-style-key="fM4Qm3d_B0mObLGjY+jNqg"] { border-color:#ccc; border-style:solid; border-width:1px; }
+[data-style-key="scTz9yjrKEKRLuw5qYmfXA"] { font-weight:bold; }
+[data-style-key="Vo5BV6HBFEWisP0YAfJsug"] { font-size:120%; }
+[data-style-key="hwRr6bSfJUShv0vR2P9tyA"] { font-size:80%; }
+[data-style-key="GnI9gad61ky6JI3HScmLvg"] { font-size:80%; }
+[data-style-key="USv4_WR9mEuKPm5PeTQZRA"] { font-size:80%; }
+[data-style-key="K7sTwju41EeSfsoLbr1W8A"] { font-size:80%; font-weight:bold; }
+[data-style-key="3bwS+JX+oE+OBolp8i1eYQ"] { font-size:80%; }
+[data-style-key="5DlJZRL1lUeT3Ke+gb6Eug"] { font-size:80%; font-weight:bold; }
+[data-style-key="oSW7V2dphEib_FGSg29cDw"] { font-size:80%; }
+[data-style-key="FZYXx_cVvUOZptH3mkB3kQ"] { font-size:80%; font-weight:bold; }
+[data-style-key="XntZnzxMI0G1ixGSQVxNqw"] { font-weight:bold; }
+[data-style-key="2GyvkwRUqkGmsnTY+FT0Nw"] { font-weight:bold; }
+[data-style-key="KA1jaGHp9Ey+fsYBdl0RmA"] { font-weight:bold; }
+[data-style-key="7uYsuzCChEWYWFJcaoBFCQ"] { font-weight:bold; }
+[data-style-key="005vX3l6OUyYkIMS69Emsw"] { font-weight:bold; }
+[data-style-key="othyfLBUBkSmuJLnWnwgag"] { font-weight:bold; }
+[data-style-key="Xa0YGSCEK0S83fUJ1_I+qA"] { border-color:#ccc; border-style:solid; border-width:1px; }
+[data-style-key="0_S1zMgPekKgACZX1gXKWg"] { font-style:italic; font-weight:bold; }
+[data-style-key="BcvdMR7I+ku96LZuXR8xCA"] { font-size:120%; font-weight:bold; }
+[data-style-key="yIsjXg21Q0GAwNsqEIxvYA"] { font-weight:bold; }
+[data-style-key="8jzMCxAryk2+hoT_bdptLQ"] { font-size:120%; font-weight:bold; }
+[data-style-key="nlUgYXxZO0e6_b7Wt6cscA"] { font-size:130%; font-weight:bold; }
+[data-style-key="Qz8aeOTnDU2RhI5j_XvkSg"] { font-size:120%; font-weight:bold; }
+[data-style-key="xDSiJH8WPESUk78rCJiNeQ"] { font-size:130%; font-weight:bold; }
+[data-style-key="eeFuZBDSuUuFT0Mw1ea2aQ"] { font-weight:bold; }
+[data-style-key="YfMg4QcdxUW6yeARlBJQ3g"] { font-size:80%; }
+[data-style-key="0enccaVLz0e+E4cmzdy5zA"] { font-size:80%; }
+[data-style-key="ig+hE+SY7EeYbBAyaq01CA"] { font-size:80%; font-weight:bold; }
+[data-style-key="OjQeUrLg3UCS9m1ZcxEJfw"] { font-size:80%; }
+[data-style-key="hmLS0YX4DUaJKkkDepoyow"] { font-size:80%; font-weight:bold; }
+[data-style-key="dRhKVkjOYEK87N2A_skGpA"] { font-size:80%; }
+[data-style-key="bWuanUCHeUCM+kEqoIoyMw"] { font-size:80%; font-weight:bold; }
+[data-style-key="diERwgN7m0unQOV+gIMXlg"] { font-size:80%; }
+[data-style-key="eFtUD_5rtkWF2emcEtAsxw"] { font-weight:bold; }
+[data-style-key="+EZmVDuz_kOwPZTb2QTIEg"] { font-weight:bold; }
+[data-style-key="2UDCV7y1BECFp5foI6wtig"] { font-weight:bold; }
+[data-style-key="V__oNtf7SUmcODeZ1oTZbw"] { font-weight:bold; }
+[data-style-key="EvBKMmBfQU24tioENqhmYQ"] { font-weight:bold; }
+[data-style-key="npEhDm7G5UWCBnxoYAZzAQ"] { font-size:140%; }
+[data-style-key="RLbw0qLf50Snne9Ii7HLrg"] { font-size:110%; font-weight:normal; }
+[data-style-key="kFYuRtETrEifXBXxmzfF_A"] { font-size:140%; }
+[data-style-key="4lT0PTBbBE2TQCE61pS33Q"] { font-size:110%; font-weight:normal; }
+[data-style-key="NojjLBosCkGwxZDdBiIN7A"] { font-weight:bold; }
+[data-style-key="sEmkfgw_4UqdZPprQxTSgQ"] { font-size:100%; }
+.TableRecords[data-style-key="5fjt47318kef430b21rPEQ"] { font-weight:bold; }
+[data-style-key="_McDLugqG0iIIQwFHYbYww"] { font-size:120%; }
+.TableRecords[data-style-key="o247yrqANkyF0mU_0i+TFA"] { font-size:80%; }
+[data-style-key="k2bo_vgmXkuVEQ6xVC_XZg"] { font-size:80%; }
+[data-style-key="dbcjhl1ViUauW4T0M_Qfyw"] { font-size:80%; }
+[data-style-key="_uzWrIK7k0mxPbCkven_xw"] { font-size:80%; }
+[data-style-key="EvlvJqLAzECDmjN0kFDXNw"] { font-size:80%; }
+[data-style-key="+tCvKV+otE6YyRDz5hP1Yg"] { font-size:80%; }
+[data-style-key="CMLbPFPJv0yGGJWvNarX1g"] { font-size:80%; }
+[data-style-key="1X0zwoJm806gCssfGsc3XQ"] { font-size:80%; }
+[data-style-key="AQ0WnyEcJkaAvO9Q2_l3wg"] { font-size:80%; }
+[data-style-key="aLolxTycWk+vk5q1Gr2sWg"] { font-size:80%; }
+[data-style-key="D7WrkbQfZU2EnfjC8IwOgw"] { font-size:80%; }
+[data-style-key="Q_082dywN0SiO2w_efxYNw"] { font-size:80%; }
+[data-style-key="KhOaBbIqDUSPIFiPlGmzEQ"] { font-size:80%; }
+[data-style-key="3w49C79XD0e4P2wSeS5VDw"] { font-size:80%; }
+[data-style-key="fiqZw1TUiUmG8wZ5iopjCg"] { font-size:80%; }
+[data-style-key="oPe4tyCJ70W634nuGO7_Jw"] { font-size:80%; }
+[data-style-key="D6jqq2lGNUqzD4oZjjduOQ"] { font-size:80%; }
+[data-style-key="NQIeVenbN06sVBaM2qhXnw"] { font-size:80%; }
+[data-style-key="aYW4_NUwhk6vvAzq0Xu8_Q"] { font-size:80%; }
+[data-style-key="ODj4g142lU+Vbr0nZpE5Ig"] { font-weight:normal; }
+[data-style-key="+0CbLgKU20izNEKawCChjg"] { font-weight:bold; }
+.Silver[data-style-key="s4nloQlXP0C57qvGQ8_5yA"] { padding:10px; }
+.EditableTable.Text_small[data-style-key="PitvG0qP6E6KURfWKMIadA"] { font-size:100%; }
+.Text_small[data-style-key="yvYY3jTLSUeRUZzgXU2UQQ"] { font-size:px; }
+[data-style-key="knzRLY_oJU25lxeTCyf5pw"] { font-size:110%; font-weight:bold; }
+[data-style-key="hj52z5L6R0OzYf4Vp8OGsQ"] { color:#222; font-size:120%; }
+[data-style-key="RFQFr1peaEmoQWz_pwAVhQ"] { color:#222; font-size:120%; }
+[data-style-key="MZR4b3wCl0mAfmW8gFG_3A"] { font-size:110%; font-weight:bold; }
+[data-style-key="UJkNl84CNUGGYz1brffYwA"] { font-weight:bold; }
+[data-style-key="HDO5_wcxrE6Ed6A7evxoIg"] { color:#999; }
+[data-style-key="i93Iuy3ROkSRtfonqLSf8A"] { color:#999; font-size:120%; }
+[data-style-key="GVzXHjMwGU+ex0RexR1OHw"] { font-weight:bold; }
+[data-style-key="HVHQQCQeBUWXEwiGPeq8mg"] { font-weight:bold; }
+[data-style-key="AVBBeltQ6UOUH59U2KQckA"] { font-size:70%; }
+[data-style-key="Jm0mmTu190G7RkbApnAJww"] { color:#222; font-size:120%; }
+[data-style-key="y4cWVHGcGESSnzv4gZRMlw"] { color:#222; font-size:120%; }
+[data-style-key="XLYKGJ_1WkiTuV40xUuCLA"] { font-size:110%; font-weight:bold; }
+.EditableTable.Text_small[data-style-key="6L5xpQ7na0W3GjVLReErzA"] { font-size:100%; }
+[data-style-key="KW6DPMjW7kq5vEl+tSD1sA"] { font-size:110%; font-weight:bold; }
+[data-style-key="y1ttaDrV1EOtrla017X4QA"] { color:#999; }
+[data-style-key="YulaiCT71kSVH8PDmrS39g"] { color:#999; font-size:120%; }
+[data-style-key="PN2hHRWbwUy0qHs0C2w+0A"] { text-align:center; }
+.Button[data-style-key="6M7mEswrmEqif5l567UtRg"] { background-color:#ef4223; color:#fff; }
+[data-style-key="AEdO27jiLkuLThd28R1Mkw"] { background-color:#fff; }
+[data-style-key="yA5OQGavoUWqlVETAG2RVQ"] { font-weight:bold; }
+[data-style-key="m3RoSsFlhEC_5mF1R2U5LA"] { font-weight:bold; }
+[data-style-key="ZiZ3UEeQ0EyQS79f5P94Kg"] { text-align:center; }
+[data-style-key="H8sUqNLE8kG_85k3I3CxDg"] { font-weight:bold; }
+.Bottomline[data-style-key="+ZW429BK5EidB8RjvrkoBQ"] { margin:0px 0px 30px 0px; }
+.Bottomline[data-style-key="mi8QrJ4l1UueTXOM93517g"] { margin:0px 0px 30px 0px; }
+[data-style-key="e_QqnNeJHk6euYhbKvOezg"] { font-weight:bold; }
+[data-style-key="A0BwG8ZYfkSzN9_UqJbXCA"] { font-weight:bold; }
+.LabelBlack[data-style-key="Y1grrCshl0Onq3t_9QNh7A"] { font-weight:bold; }
+[data-style-key="oi+eqeBdnEKtDvs9fCD_jg"] { font-weight:normal; }
+.LabelBlack[data-style-key="HK0ubhPqzEq3RlN3aWRIIA"] { font-weight:bold; }
+.LabelBlack[data-style-key="hEnz029J40CyUYLDT358sQ"] { font-weight:bold; }
+[data-style-key="7995c2iE6EiBaEbzgb4yng"] { color:#fff; font-weight:bold; }
+[data-style-key="D5XTgMZezU6hqUGWFqu4Sg"] { font-size:140%; font-weight:bold; }
+[data-style-key="ISJZvwQsgEqjGhu0yKD3lQ"] { font-size:140%; font-weight:bold; }
+[data-style-key="qmli2Haejk+ln+IuSshcoQ"] { font-weight:bold; }
+[data-style-key="hR3gLdeZ30ap_zGxIe7FUw"] { font-weight:bold; }
+[data-style-key="esr+CKhZCUuE+lHEjmf8aw"] { font-weight:bold; }
+[data-style-key="NOR_K76K7ESqOtGwY72XSg"] { font-weight:bold; }
+[data-style-key="_SG5LbpI4EORv+Afu7IQqw"] { border-color:#ccc; border-style:solid; border-width:1px; font-size:120%; }
+[data-style-key="sYTCml+tZEq19u6uafaXBg"] { font-style:normal; font-weight:bold; }
+[data-style-key="c5Uz2moveE2rN56P5hl2tQ"] { font-size:120%; font-weight:bold; }
+[data-style-key="gqujOX4jZku7B+BZ5R8JWg"] { font-weight:bold; }
+[data-style-key="3GWmgLMQQ0qcpi2QwlIctg"] { font-weight:bold; }
+.TableRecords[data-style-key="UGCuQfkiJUqtN4991jmumw"] { font-size:80%; }
+[data-style-key="VFTCaR1i_UacVSbe0lhNAg"] { font-size:80%; }
+[data-style-key="h2wc0_mKnUK+q7ZyeC+D8g"] { font-size:80%; }
+[data-style-key="NddP_Vm9zUSTs2qUVanj8w"] { font-size:80%; }
+[data-style-key="VB+eTuQAFkKJIybA24uESA"] { font-size:80%; }
+[data-style-key="C51K2oFVS0ufW24NNWwvIg"] { font-size:80%; }
+[data-style-key="fDs3gfuazEaYgvBueJdzqg"] { font-size:80%; }
+[data-style-key="gFsQXq9HGE6948eCihXH3A"] { font-size:80%; }
+[data-style-key="OQ6EhKCy5kuvb9mgrF0pTg"] { text-align:right; }
+[data-style-key="Qzo5QUJmgkedurb+Os1d2Q"] { font-size:70%; }
+[data-style-key="6z1wRHr1lU+lDWmzR+fSfA"] { font-size:70%; }
+[data-style-key="FmNv6cvfU0KRgDJHkwokSw"] { text-align:right; }
+[data-style-key="j58S3A4Qok6xEsG8l_4p4Q"] { text-align:center; }
+[data-style-key="YfUyD_zXP0afbH1oeaPubQ"] { font-size:200%; font-weight:bold; }
+.LabelPage[data-style-key="3lLpT_4HcUK68diYP6sOwQ"] { border-color:#222; border-style:solid; border-width:0px; height:200px; }
+[data-style-key="z0XhayfsKEuzlXs2ptqGwQ"] { margin:0px 5px 0px 1.96078431372549%; }
+[data-style-key="l4auo_tEw0aLcNXnq8f6bg"] { font-size:100%; margin:0px 5px 0px 1.96078431372549%; }
+[data-style-key="5dJcas0LRk+40AZGUxrlSQ"] { font-size:100%; height:px; }
+[data-style-key="9goSDKqOQU619bdRchERiw"] { margin:28px 15px 0px 0px; }
+[data-style-key="9AebIC_E4kOUx+kQF1KJrA"] { font-size:70%; }
+[data-style-key="iUORjL_CZUyXOuXJkLXHPg"] { font-weight:normal; }
+[data-style-key="KPZJJKm3zkC6Qu63Gq5UKg"] { font-weight:normal; }
+[data-style-key="KDLKY6CN90WeSn6pT4O20A"] { font-weight:normal; }
+[data-style-key="HnXyL5+QxU66_Ct+iRKNQg"] { font-weight:normal; }
+[data-style-key="N_F60W9B+USCw3sIXfsCtQ"] { font-weight:bold; }
+[data-style-key="nZ3V+RLegESS3OKwyKnA0Q"] { font-weight:bold; }
+[data-style-key="g+QKYsURMkyybVp4cGW7Zg"] { margin:px 5px 0px 0px; }
+[data-style-key="2Zz9qd8bS0ew9aACkOiEEQ"] { color:#da261c; }
+[data-style-key="cIxB5eaooUiM+qSwuWVanA"] { font-weight:bold; }
+[data-style-key="rHtKsxfMbEqL6C0sSV1EIA"] { font-weight:bold; }
+[data-style-key="iiVCjL0JzUi5R2OK6hSRwA"] { color:#333; }
+[data-style-key="s5Jwv0EMnUi+1pAPMa36LQ"] { color:#267be2; font-weight:bold; }
+[data-style-key="tC6TJ9VpC0mGLoVXDi8B4w"] { color:#267be2; font-weight:bold; }
+[data-style-key="Icf5F7gZFEyhOO+HvYNu5w"] { font-weight:bold; }
+[data-style-key="QsSBhNoqb0yWLalSH_EPJA"] { font-weight:bold; }
+.Application_Menu[data-style-key="mo9HUCY9FkSXauAqPSYEkQ"] { height:39px; }
+.Menu_TopMenus[data-style-key="G2Vu78VIfU+OagO3NLLhZw"] { height:39px; }
+/*** Generated classes from Style Editor in OutSystems 10 ***/
+
+
